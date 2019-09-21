@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Little bit about me</title>
+        <link rel="stylesheet" type="text/css" href="CSS/CSS_Site.css">
+    </head>
+
+    <body class="Background">
+
+    <!--Nav Bar-->
+        <div class="Navbar">
+           
+            <a href="#About">About Me</a> 
+            <a href="#GitHub">GitHub</a>
+        
+        </div>
+    <!--Nav Bar-->
+    
+        <br>
+        <br>
+        <br>
+
+    <!--Background Image-->
+        <video autoplay muted loop id="Typing_Video">
+            <source src="./Images/Typing.mp4" type="video/mp4">
+        </video>
+    <!--Background Image-->
+
+        <div class="Video_Text">
+            <h1 style="color: gold;">A Portfolio of Me and My Work</h1>
+                <p>
+                    <strong>
+                        <center>
+                            <q>In a world where software developing is becoming necessary
+                                <br>on a daily bases, the right developer is needed for the job.</q>
+                                <br><h2>Here you can get in contact with me and check out my work!</h2>
+                        </center>
+                    </strong>
+                </p>
+        </div>
+
+    <!--First Colum-->
+        <div class="Row" id="About">
+            <div class="Column_2" id="mySlide">
+                <div>
+                    <img src="Images/Me.jpg" alt="" style="width:420px;height:420px;">
+                </div>
+                <div>
+                    <img src="Images/MonicaandSofia.jpg" alt="" style="width:420px;height:420px;">
+                </div>
+            </div>
+            
+        
+            <div class="Column_1">
+                <h1 class="about">About Me</h1>
+                    <p class="p">I am a software developer who loves to code! As a father of two, I enjoy time with my family and sports. <br><br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <br><br> <a href="#Contact">Contact</a> me below!</p>
+            </div>
+        </div>
+        
+    <!--First Colum-->
+        
+        <div class="Row" id="GitHub">
+            <div class="Column_1">
+                <h1>My GitHub</h1>
+                    <p>Please take a look at my GitHub and check out my projects! I have many projects like a calulator and much more.<br>
+                    <center><a href="https://github.com/JesusGit26" target="_blank">My GitHub</a></center></p>
+            </div>
+            
+            <div class="Column_2">
+                <a href="https://github.com/JesusGit26" target="_blank"><img src="Images/CoolGitHub.png"></a>
+            </div>
+        </div>
+	
+
+    <button class="open-button" onclick="openForm()">Contact Me!</button>
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Get In Touch With Me</h1>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="text"><b>Message</b></label>
+            <input type="text" placeholder="Message" name="text" required>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+
+    <footer>
+		<p>
+			<center>“Coding like poetry should be short and concise.”
+                   <br>― Santosh Kalwar</center><br>
+		</p>
+	</footer>
+
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="JavaScript/Site_JavaScript.js"></script>
+
+</html> 
