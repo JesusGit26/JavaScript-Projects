@@ -1,0 +1,244 @@
+body {
+    margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mySlide {
+    float: left;
+    margin: 80px auto;
+    position: relative;
+    width: 420px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#mySlide > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+}
+
+.Navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Navbar a:hover {
+     background-color: gold;
+     color: black;
+     font-weight: bold;
+}
+
+.Navbar a.active {
+    background-color: rgb(250, 213, 7);
+}
+
+#Typing_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.Video_Text {
+    background: rgba(0,0,0,0.5);
+    color: gold;
+    padding: 20px;
+    width: 60%;
+    margin: 23%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Column_2 {
+    padding: 2%;
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.Column_1 {
+    float: left;
+    width: 50%;
+    padding: 2%;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about {
+    color: gold;
+}
+
+.p {
+    color: gold;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: gold;
+}
+
+p {
+	font-family: Perpetua, Rockwell Extra Bold;
+	text-align: justify;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding-left: 20px;
+    padding-right: 20px;
+    color: gold;
+}
+
+center {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: lightseagreen;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    filter: grayscale(75%);
+    border-radius: 8px;
+    max-width: 100%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+center:hover {
+	transition: transform 2s;
+	transform: scale(1.1);
+}
+
+p:hover {
+	color: #8bccfb;	
+    transition: transform 1s;
+	transform: scale(1.01);
+}
+
+h1:hover {
+	color: gold;
+	font-weight: normal;
+}
+
+img:hover {
+	filter: grayscale(5%); 
+    transition: transform 1s;
+	transform: scale(1.1);
+}
+
+
+footer {
+	padding: 5px;
+    background-color:rgba(0,0,0,0.5);
+    color: gold;
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}  
+  
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+  
+.form-container input[type=text], .form-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}  
+
+.form-container input[type=text]:focus, .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+.form-container .btn {
+    background-color: rgb(133, 188, 255);
+    color: gold;
+    padding: 16px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+  
+.form-container .cancel {
+    background-color: red;
+}
+  
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
